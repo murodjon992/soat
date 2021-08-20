@@ -47,21 +47,21 @@ const stBtn = document.querySelector('.stopwatch__btn'),
       indi = document.querySelector('.tabsLink__span');
 
       stBtn.addEventListener('click', function(){
-        if(this.innerHTML === 'start'){
-          this.innerHTML = 'stop';
+        if(this.innerHTML === 'boshlash'){
+          this.innerHTML = 'to\'xta';
           this.style.background = 'red';
           this.style.color = '#fff';
           indi.classList.add('active')
           mirzahalil();
-        } else if(this.innerHTML === 'stop'){
-          this.innerHTML = 'clear';
+        } else if(this.innerHTML === 'to\'xta'){
+          this.innerHTML = 'boshiga';
           this.style.background = 'green';
           this.style.color = '#fff';
           indi.classList.remove('active')
           indi.classList.add('active_clear')
 
         } else {
-          this.innerHTML = 'start'
+          this.innerHTML = 'boshlash'
           this.style.background = '#fff'
           this.style.color = '#000'
           stSec.innerHTML = 0
