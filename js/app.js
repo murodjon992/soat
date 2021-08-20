@@ -82,7 +82,7 @@ const stBtn = document.querySelector('.stopwatch__btn'),
           stMin.innerHTML = 0
           stHour.innerHTML++
         }
-        if(stBtn.innerHTML === 'stop'){
+        if(stBtn.innerHTML === 'to\'xta'){
          
           setTimeout(() => mirzahalil(), 1000)
 
